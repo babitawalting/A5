@@ -6,18 +6,18 @@ import os
 os.system("cls")
 print("Working...")
 
-dataBavaria = pd.read_excel("A5/excelfiles/Voetbal_Bavaria League_tussenstand.xlsx")
+dataBavaria = pd.read_excel("excelfiles/Voetbal_Bavaria League_tussenstand.xlsx")
 dataBavaria["datum"] = pd.to_datetime(dataBavaria["datum"], format="%d/%m/%Y")
 dataBavaria = dataBavaria.sort_values("datum")
 
 
 #Informatievraag 1
 
-
+totalViolations = dataBavaria["overtredingen"].sum()
 
 #Informatievraag 2
 
-
+averageViolations = dataBavaria["overtredingen"].mean()
 
 #Informatievraag 3
 dataSorted = dataBavaria.sort_values("overtredingen", ascending=False)
@@ -30,13 +30,6 @@ file3.write(bamboo.prettify(dataSorted, type="zwartboek"))
 
 
 #Informatievraag 4
-
-
-
-
-
-
-
 
 
 print("Done!")
