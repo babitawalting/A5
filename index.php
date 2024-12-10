@@ -12,8 +12,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
     <!-- Hier worden de fonts al voor je ingeladen! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Faster+One&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Roboto+Mono:wght@400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
 </head>
 
@@ -54,16 +63,13 @@
                     <pre><?php require_once("./files/eregalerij.txt") ?></pre>
                 </div>
             </div>
-    </div>
+        </main>
 
-
-    </main>
-
-    <footer>
-        <p>Deze website is gemaakt in het kader van een praktijkopdracht bij de opleiding Software Developer, Curio
-            Breda.</p>
-        <p>&copy; Team X, Pietje Puk en Jan Smit.</p>
-    </footer>
+        <footer>
+            <p>Deze website is gemaakt in het kader van een praktijkopdracht bij de opleiding Software Developer, Curio
+                Breda.</p>
+            <p>&copy; Freek Voermans en Babita Alting.</p>
+        </footer>
 
     </div>
 

@@ -86,82 +86,100 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html{
-    font-size: 16px;
-    background-color: #f6f6f6;
+html {
+  font-size: 16px;
+  background-color: #f6f6f6;
 }
 
-.container{
-    
-    /* ? */
-
+.container {
+  width: 968px;
+  margin: 0 auto;
 }
 
-header{
-    margin: 1rem 0;
+header {
+  margin: 1rem 0;
 }
 
-h1{
-    font-size: 4rem;
-    line-height: 4rem;
-    padding-left: 8px;
-    margin: 0;
-
-    /* Font: "Faster One" */
+h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  padding-left: 8px;
+  margin: 0;
+  font-family: "Faster One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.subtitle{
-    margin-top: 0;
-
-    /* Font: Roboto, gewicht 500, schuingedrukt, grootte 1.25rem */
-}
-
-
-.row{
-    margin: 1.5rem 0;
-    
-    /* Display instellen zodat de inhoud naast elkaar komt (met daar wat space tussen) */
-}
-
-.box{
-    width: 100%;
-    background-color: white;
-    
-    /* Border afgerond, kleur #f0f0f0 */
-    /* En verder af te leiden uit het voorbeeld */
-}
-
-.box.half{
-    width: 48%;
-}
-
-h2{
-    /* Font: Roboto, gewicht 500, grootte 1rem */
-}
-
-p{
-    /* Font: Roboto */
-}
-
-p.number{
-    /* Font: Roboto Mono, gewicht 500, grootte 2rem */
-}
-
-pre{
-    margin-top: 0.9rem;
-    /* Font: Roboto Mono, grootte 0.9rem */
+.subtitle {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.25rem;
 }
 
 
-footer{
-    margin: 1.5rem 0;
-    /* Font-size iets kleiner dan standaard, kleur grijs */
+.row {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  width: 100%;
+  background-color: white;
+  border: #f0f0f0 solid 4px;
+  border-radius: 10px;
+  padding: 10px;
+  /* En verder af te leiden uit het voorbeeld */
+}
+
+
+.box.half {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+p.number {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+pre {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.9rem;
+  margin-top: 0.9rem;
+  text-align: center;
+}
+
+footer {
+  margin: 1.5rem 0;
+  font-size: small;
+  color: grey;
 }
 
 
@@ -265,9 +283,9 @@ footer{
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -278,6 +296,7 @@ footer{
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -294,11 +313,11 @@ footer{
   }
 
   a[href]::after {
-    content: " (" attr(href) ")";
+    content: " ("attr(href) ")";
   }
 
   abbr[title]::after {
-    content: " (" attr(title) ")";
+    content: " ("attr(title) ")";
   }
 
   /*
@@ -345,4 +364,3 @@ footer{
     page-break-after: avoid;
   }
 }
-
