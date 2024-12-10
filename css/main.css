@@ -86,82 +86,93 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html{
-    font-size: 16px;
-    background-color: #f6f6f6;
+html {
+  font-size: 16px;
+  background-color: #f6f6f6;
 }
 
-.container{
-    
-    /* ? */
+.container {
+
+  /* ? */
 
 }
 
-header{
-    margin: 1rem 0;
+header {
+  margin: 1rem 0;
 }
 
-h1{
-    font-size: 4rem;
-    line-height: 4rem;
-    padding-left: 8px;
-    margin: 0;
+h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  padding-left: 8px;
+  margin: 0;
 
-    /* Font: "Faster One" */
+  /* Font: "Faster One" */
 }
 
-.subtitle{
-    margin-top: 0;
+.subtitle {
+  margin-top: 0;
 
-    /* Font: Roboto, gewicht 500, schuingedrukt, grootte 1.25rem */
-}
-
-
-.row{
-    margin: 1.5rem 0;
-    
-    /* Display instellen zodat de inhoud naast elkaar komt (met daar wat space tussen) */
-}
-
-.box{
-    width: 100%;
-    background-color: white;
-    
-    /* Border afgerond, kleur #f0f0f0 */
-    /* En verder af te leiden uit het voorbeeld */
-}
-
-.box.half{
-    width: 48%;
-}
-
-h2{
-    /* Font: Roboto, gewicht 500, grootte 1rem */
-}
-
-p{
-    /* Font: Roboto */
-}
-
-p.number{
-    /* Font: Roboto Mono, gewicht 500, grootte 2rem */
-}
-
-pre{
-    margin-top: 0.9rem;
-    /* Font: Roboto Mono, grootte 0.9rem */
+  /* Font: Roboto, gewicht 500, schuingedrukt, grootte 1.25rem */
 }
 
 
-footer{
-    margin: 1.5rem 0;
-    /* Font-size iets kleiner dan standaard, kleur grijs */
+.row {
+  margin: 1.5rem 0;
+
+  display: flex;
+  gap: 10px;
+  /* Display instellen zodat de inhoud naast elkaar komt (met daar wat space tussen) */
+}
+
+.box {
+  width: 100%;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid #f0f0f0;
+
+  border-radius: 10px;
+  height: 100px;
+
+  /* Border afgerond, kleur #f0f0f0 */
+  /* En verder af te leiden uit het voorbeeld */
+}
+
+.box.half {
+  width: 48%;
+}
+
+h2 {
+  /* Font: Roboto, gewicht 500, grootte 1rem */
+}
+
+p {
+  /* Font: Roboto */
+}
+
+p.number {
+  /* Font: Roboto Mono, gewicht 500, grootte 2rem */
+}
+
+pre {
+  margin-top: 0.9rem;
+  /* Font: Roboto Mono, grootte 0.9rem */
+}
+
+
+footer {
+  margin: 1.5rem 0;
+  /* Font-size iets kleiner dan standaard, kleur grijs */
 }
 
 
@@ -265,9 +276,9 @@ footer{
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -278,6 +289,7 @@ footer{
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -345,4 +357,3 @@ footer{
     page-break-after: avoid;
   }
 }
-
