@@ -42,11 +42,13 @@ today = datetime.now()
 twoWeeksAgo = today - timedelta(days=14)
 filter1 = (dataBavaria["overtredingen"] <= 2)
 hallOfFame = dataBavaria[filter1]
-filter2 = (dataBavaria["datum"] < today) and (hallOfFame["datum"] > twoWeeksAgo)
+filter2 = (hallOfFame["datum"] < today)
 hallOfFame = hallOfFame[filter2]
+filter3 = (hallOfFame["datum"] > twoWeeksAgo)
+hallOfFame = hallOfFame[filter3]
 
 
-file4 = open("files/eregalerij.txt", "a", encoding="UTF-8")
+file4 = open("files/eregalerij.txt", "w", encoding="UTF-8")
 file4.write(bamboo.prettify(hallOfFame, type="eregalerij"))
 file4.close()
 

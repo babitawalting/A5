@@ -35,7 +35,10 @@ def prettify(dataframe, type="", columns=None):
         if type == "zwartboek":
             columns.append("overtredingen")
             
-        dataframe["datum"] = dataframe["datum"].dt.strftime("%d-%m-%Y")
+        #dataframe["datum"] = dataframe["datum"].dt.strftime("%d-%m-%Y")
+        # Zie: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+        dataframe.loc[:, ("datum")] = dataframe["datum"].dt.strftime("%d-%m-%Y")
+
         index = False
 
 
