@@ -1,0 +1,11 @@
+     datum                team1            team2 uitslag scheidsrechter  overtredingen
+2024-05-12 FC Winterswijk Miste        Handel FC     4-5      Chrodtrud             98
+2024-12-16            Liverpool  Meerstad United     1-3      Chrodtrud             95
+2024-12-27        Manderveen FC          Leek FC     0-2      Chrodtrud             90
+2024-12-12          Matsloot FC     Dalerpeel FC     3-2  van den Brink             89
+2024-12-22        Klarenbeek FC      Matsloot FC     5-1     van Ginkel             83
+2024-12-12      Meerstad United     Oldenzijl FC     0-2  van den Brink             83
+2024-07-12           Vaassen FC     Landhorst FC     0-0      Chrodtrud             82
+2024-12-12                 Ajax          Leek FC     1-0      Chrodtrud             81
+2024-01-12        Klarenbeek FC    FC Warfhuizen     1-2  van den Brink             81
+2024-12-29         Dalerpeel FC Lokomotiv Moscow     2-3      Bekbergen             79
