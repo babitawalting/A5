@@ -29,6 +29,9 @@
                 <div class="box half">
                     <h2>Aantal overtredingen:</h2>
                     <p class="number"><?php require_once("./files/total.txt") ?></p>
+
+
+                    <pre><?php require_once("./files/zwartboek.txt") ?></pre>
                 </div>
             </div>
         </main>
