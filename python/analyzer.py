@@ -31,7 +31,7 @@ file2.close()
 dataSorted = dataBavaria.sort_values("overtredingen", ascending=False)
 top10 = dataSorted.head(10)
 
-file3 = open("files/zwartbroek.txt", "w", encoding="UTF-8")
+file3 = open("files/zwartboek.txt", "w", encoding="UTF-8")
 file3.write(bamboo.prettify(top10, type="zwartboek"))
 file3.close()
 
