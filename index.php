@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="nl">
+
 <head>
     <meta charset="utf-8">
     <title>Fair play in de VOORBEELD-DIVISIE</title>
@@ -27,7 +28,7 @@
             <div class="row">
                 <div class="box half">
                     <h2>Aantal overtredingen:</h2>
-                    <p class="number"><?php echo 0 ?></p>
+                    <p class="number"><?php require_once("./files/total.txt") ?></p>
                 </div>
             </div>
         </main>
@@ -40,4 +41,5 @@
     </div>
 
 </body>
+
 </html>
