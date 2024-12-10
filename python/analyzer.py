@@ -23,7 +23,7 @@ file.close()
 
 averageViolations = dataBavaria["overtredingen"].mean()
 file2 = open("files/average.txt", "w", encoding="UTF-8")
-file2.write(f"{averageViolations}")
+file2.write(f"{int(averageViolations)}")
 file2.close()
 
 #Informatievraag 3

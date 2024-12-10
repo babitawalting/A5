@@ -29,9 +29,11 @@
                 <div class="box half">
                     <h2>Aantal overtredingen:</h2>
                     <p class="number"><?php require_once("./files/total.txt") ?></p>
+                </div>
 
-
-                    <pre><?php require_once("./files/zwartboek.txt") ?></pre>
+                <div class="box half">
+                    <h2>Gemiddelde per wedstrijd</h2>
+                    <p class="number"><?php require_once("./files/average.txt") ?></p>
                 </div>
             </div>
         </main>
