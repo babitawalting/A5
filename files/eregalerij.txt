@@ -1,0 +1,48 @@
+     datum                team1                team2 uitslag scheidsrechter
+2024-01-12            Handel FC     Lokomotiv Moscow     2-0         Simons
+2024-01-12     Broeksterwâld FC            Handel FC     3-3  Hoppenbrouwer
+2024-01-12        Manderveen FC         Dalerpeel FC     0-4         Simons
+2024-01-12                 Ajax          Real Kuinre     5-3      Chrodtrud
+2024-01-12          Matsloot FC            Handel FC     5-4  van den Brink
+2024-02-12         Landhorst FC            Handel FC     2-5   van de Elzas
+2024-02-12           Sonnega FC            Liverpool     1-5      Bekbergen
+2024-03-12     Broeksterwâld FC         Landhorst FC     2-1      van Tuijl
+2024-03-12           Sonnega FC     Lokomotiv Moscow     0-1     van Ginkel
+2024-03-12 FC Winterswijk Miste                 Ajax     1-4      Chrodtrud
+2024-03-12     Broeksterwâld FC     Lokomotiv Moscow     0-1      Bekbergen
+2024-04-12         Dalerpeel FC          Real Kuinre     3-3     van Ginkel
+2024-04-12            Liverpool     Lokomotiv Moscow     1-3         Wright
+2024-04-12         Oldenzijl FC        Klarenbeek FC     0-4     van Ginkel
+2024-04-12         Landhorst FC                 Ajax     0-4      Chrodtrud
+2024-04-12          Real Kuinre FC Winterswijk Miste     4-0         Simons
+2024-04-12            Feyenoord           Vaassen FC     5-2   van de Elzas
+2024-05-12         Landhorst FC           Sonnega FC     1-3         Jdotte
+2024-05-12      Meerstad United FC Winterswijk Miste     0-3         Wright
+2024-05-12      Meerstad United         Dalerpeel FC     0-1         Jdotte
+2024-05-12        FC Strijensas            Feyenoord     4-1      Bekbergen
+2024-06-12            Liverpool        Manderveen FC     0-5         Simons
+2024-06-12         Oldenzijl FC              Leek FC     5-5      Chrodtrud
+2024-06-12        Klarenbeek FC           Sonnega FC     4-5         Jdotte
+2024-06-12     Lokomotiv Moscow           Sonnega FC     0-0      Chrodtrud
+2024-06-12     Lokomotiv Moscow          Real Kuinre     4-0   van de Elzas
+2024-06-12           Sonnega FC        Manderveen FC     1-2         Wright
+2024-07-12         Dalerpeel FC         Landhorst FC     1-4  van den Brink
+2024-07-12              Leek FC         Landhorst FC     1-4  Hoppenbrouwer
+2024-07-12           Sonnega FC            Feyenoord     1-5      Bekbergen
+2024-07-12        FC Strijensas        Manderveen FC     1-5      van Tuijl
+2024-07-12           Vaassen FC         Dalerpeel FC     2-3     van Ginkel
+2024-07-12            Feyenoord        FC Warfhuizen     1-1      Bekbergen
+2024-07-12          Matsloot FC            Feyenoord     1-1      Chrodtrud
+2024-08-12         Landhorst FC        FC Warfhuizen     3-5  Hoppenbrouwer
+2024-08-12                 Ajax            Handel FC     5-0  van den Brink
+2024-08-12         Oldenzijl FC        Manderveen FC     0-1   van de Elzas
+2024-08-12      Meerstad United     Lokomotiv Moscow     0-1         Jdotte
+2024-09-12          Real Kuinre            Handel FC     5-4         Jdotte
+2024-09-12        Manderveen FC          Matsloot FC     5-3         Wright
+2024-09-12            Handel FC            Feyenoord     4-3  Hoppenbrouwer
+2024-09-12        Klarenbeek FC         Oldenzijl FC     1-3         Jdotte
+2024-09-12 FC Winterswijk Miste            Feyenoord     3-1      Chrodtrud
+2024-10-12         Landhorst FC            Liverpool     1-3      van Tuijl
+2024-10-12                 Ajax         Dalerpeel FC     5-2      van Tuijl
+2024-10-12      Meerstad United           Sonnega FC     1-2  Hoppenbrouwer
+2024-10-12      Meerstad United        FC Warfhuizen     1-2      Chrodtrud

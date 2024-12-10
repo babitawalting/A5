@@ -36,31 +36,34 @@
                 <div class="box half">
                     <h2>Aantal overtredingen:</h2>
                     <p class="number"><?php require_once("./files/total.txt") ?></p>
-
-
-                    
                 </div>
-
-                <div class="row">
-                    <div class="box">
-                        <h2>Wedstrijden met de meeste overtredingen:</h2>
-                        <pre><?php require_once("./files/zwartboek.txt") ?></pre>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="box">
-                        <h2>Wedstrijden met minder dan twee overtredingen(laatste 14 dagen)</h2>
-                        <pre><?php require_once("./files/eregalerij.txt") ?></pre>
-                    </div>
+                <div class="box half">
+                    <h2>Gemiddelde per wedstrijd</h2>
+                    <p class="number"><?php require_once("./files/average.txt") ?></p>
                 </div>
             </div>
-        </main>
+            <div class="row">
+                <div class="box">
+                    <h2>Wedstrijden met de meeste overtredingen:</h2>
+                    <pre><?php require_once("./files/zwartboek.txt") ?></pre>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <h2>Wedstrijden met minder dan twee overtredingen(laatste 14 dagen)</h2>
+                    <pre><?php require_once("./files/eregalerij.txt") ?></pre>
+                </div>
+            </div>
+    </div>
 
-        <footer>
-            <p>Deze website is gemaakt in het kader van een praktijkopdracht bij de opleiding Software Developer, Curio
-                Breda.</p>
-            <p>&copy; Team X, Pietje Puk en Jan Smit.</p>
-        </footer>
+
+    </main>
+
+    <footer>
+        <p>Deze website is gemaakt in het kader van een praktijkopdracht bij de opleiding Software Developer, Curio
+            Breda.</p>
+        <p>&copy; Team X, Pietje Puk en Jan Smit.</p>
+    </footer>
 
     </div>
 
